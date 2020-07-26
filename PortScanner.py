@@ -44,7 +44,7 @@ def portscan(port):
     try:
         con = s.connect((target,port))
         with print_lock:
-            print('[+]Port',port, "is open")
+            print(f'{GREEN}[+]Port',port, "is open")
         con.close()
     except:
         pass
