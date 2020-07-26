@@ -16,8 +16,15 @@ RED = Fore.RED
 WHITE = Fore.WHITE
 YELLOW = Fore.YELLOW
 
-print( " - -- - - - - - - - - - - Developed By Liferacer333- - - - - - - - - - - - - - - - -")
-print("- - - - - - - - - - - - - - - - - PortScanner V1.0- - - - - - - - - - - - - - - - - - ")                                                                                                             
+print(f"{GRAY} - -- - - - - - - - - - - - Developed By Liferacer333- - - - - - - - - - - - - --")
+print(f"{GREEN} ######                       #####")                                               
+print(f"{GREEN} #     #  ####  #####  ##### #     #  ####    ##   #    # #    # ###### #####")     
+print(f"{GREEN} #     # #    # #    #   #   #       #    #  #  #  ##   # ##   # #      #    #")    
+print(f"{GREEN} ######  #    # #    #   #    #####  #      #    # # #  # # #  # #####  #    #")    
+print(f"{GREEN} #       #    # #####    #         # #      ###### #  # # #  # # #      #####")  
+print(f"{GREEN} #       #    # #   #    #   #     # #    # #    # #   ## #   ## #      #   #")
+print(f"{GREEN} #        ####  #    #   #    #####   ####  #    # #    # #    # ###### #    #")
+print(f"{RED}- - - - - - - - - - - - - - - - - PortScanner V1.0- - - - - - - - - - - - - - -  ")                                                                                                             
                                                                                                              
                                                                                                                                                               
 
