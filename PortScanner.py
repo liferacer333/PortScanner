@@ -4,21 +4,13 @@ from queue import Queue
 import time
 import sys
 import socket
-from colorama import init, Fore
 from datetime import datetime
-# some colors
-init()
-GREEN = Fore.GREEN
-RESET = Fore.RESET
-GRAY = Fore.LIGHTBLACK_EX
-RED = Fore.RED
-WHITE = Fore.WHITE
-YELLOW = Fore.YELLOW
+
 print( " - -- - - - - - - - - - - Developed By Liferacer333- - - - - - - - - - - - - - - - -")
 print("- - - - - - - - - - - - - - - - - PortScanner V1.0- - - - - - - - - - - - - - - - - - ")                                                                                                             
                                                                                                              
                                                                                                                                                               
-print(f"{GRAY} ")
+
 # a print_lock is what is used to prevent "double" modification of shared variables.
 # this is used so while one thread is using a variable, others cannot access
 # it. Once done, the thread releases the print_lock.
@@ -32,8 +24,8 @@ target = input('Enter a remote host to scan :')
 t1 = datetime.now()
 ip = socket.gethostbyname(target)
 print(ip)
-print(f"{YELLOW}-" * 60)
-print(f"{YELLOW}Please Wait Scanning Remote Host", ip) 
+print("-" * 60)
+print("Please Wait Scanning Remote Host", ip) 
 print("-" * 60)
 
 
@@ -42,7 +34,7 @@ def portscan(port):
     try:
         con = s.connect((target,port))
         with print_lock:
-            print(f'{GREEN}[+]Port',port, "is open")
+            print('[+]Port',port, "is open")
         con.close()
     except:
         pass
@@ -81,7 +73,7 @@ for x in range(30):
 
 start = time.time()
 
-# 1024 jobs assigned.
+# 1080 jobs assigned.
 for worker in range(1080):
     q.put(worker)
 
@@ -89,4 +81,4 @@ for worker in range(1080):
 q.join()
 t2 = datetime.now()
 total = t2 - t1
-print(f'{YELLOW}Scanning Completed in:',total)
+print('Scanning Completed in:',total)
