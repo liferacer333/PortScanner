@@ -1,4 +1,4 @@
-#usr/bin/python
+#!usr/bin/python
 import threading
 from queue import Queue
 import time
@@ -14,14 +14,7 @@ GRAY = Fore.LIGHTBLACK_EX
 RED = Fore.RED
 WHITE = Fore.WHITE
 YELLOW = Fore.YELLOW
-print(f"{GRAY} - - - - - - - - - - - Developed By Liferacer333- - - - - - - - - - - - - - -")
-print(f"{GREEN}######                       #####")                                            
-print(f"{GREEN}#     #  ####  #####  ##### #     #  ####    ##   #    # #    # ###### #####")  
-print(f"{GREEN}#     # #    # #    #   #   #       #    #  #  #  ##   # ##   # #      #    #")
-print(f"{GREEN}######  #    # #    #   #    #####  #      #    # # #  # # #  # #####  #    #") 
-print(f"{GREEN}#       #    # #####    #         # #      ###### #  # # #  # # #      #####") 
-print(f"{GREEN}#       #    # #   #    #   #     # #    # #    # #   ## #   ## #      #   #")  
-print(f"{GREEN}#        ####  #    #   #    #####   ####  #    # #    # #    # ###### #    #") 
+print( " - -- - - - - - - - - - - Developed By Liferacer333- - - - - - - - - - - - - - - - -")
 print("- - - - - - - - - - - - - - - - - PortScanner V1.0- - - - - - - - - - - - - - - - - - ")                                                                                                             
                                                                                                              
                                                                                                                                                               
