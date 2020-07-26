@@ -5,6 +5,16 @@ import time
 import sys
 import socket
 from datetime import datetime
+from colorama import init, Fore
+
+# some colors
+init()
+GREEN = Fore.GREEN
+RESET = Fore.RESET
+GRAY = Fore.LIGHTBLACK_EX
+RED = Fore.RED
+WHITE = Fore.WHITE
+YELLOW = Fore.YELLOW
 
 print( " - -- - - - - - - - - - - Developed By Liferacer333- - - - - - - - - - - - - - - - -")
 print("- - - - - - - - - - - - - - - - - PortScanner V1.0- - - - - - - - - - - - - - - - - - ")                                                                                                             
@@ -24,9 +34,9 @@ target = input('Enter a remote host to scan :')
 t1 = datetime.now()
 ip = socket.gethostbyname(target)
 print(ip)
-print("-" * 60)
+print(f"{YELLOW}-" * 60)
 print("Please Wait Scanning Remote Host", ip) 
-print("-" * 60)
+print(f"{YELLOW}-" * 60)
 
 
 def portscan(port):
