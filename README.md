@@ -4,6 +4,13 @@ It shows all the Open Ports if there is no open ports in between Well-Known Comm
 
 Developer is not responsible for the misuse of this PortScanner.
 
+#Installation:
+$ apt-get update
+$ apt-get upgrade
+$ git clone https://github.com/liferacer333/PortScanner.git
+If colorama is not installed then install it by typing:
+$ pip install colorama
+
 #To Run
 python3 PortScanner.py
 Colorama is required to run this program. Make sure that you have installed before running the script.
