@@ -6,7 +6,10 @@ Developer is not responsible for the misuse of this PortScanner.
 
 #Installation:
 $ apt-get update
+
 $ apt-get upgrade
+$ pkg install git
+$ pkg install python
 $ git clone https://github.com/liferacer333/PortScanner.git
 If colorama is not installed then install it by typing:
 $ pip install colorama
