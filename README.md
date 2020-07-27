@@ -10,7 +10,7 @@ $ apt-get upgrade
 $ git clone https://github.com/liferacer333/PortScanner.git
 If colorama is not installed then install it by typing:
 $ pip install colorama
-
+It works on both linux & termux
 #To Run
 python3 PortScanner.py
 Colorama is required to run this program. Make sure that you have installed before running the script.
