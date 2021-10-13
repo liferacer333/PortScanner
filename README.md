@@ -5,8 +5,8 @@ It shows all the Open Ports if there is no open ports in between Well-Known Comm
 
 ***Developer is not responsible for the misuse of this PortScanner.***
 
-#Installation:
-**(TERMUX)**   
+#Installation:  
+**(TERMUX)**     
 $ apt-get update  
 $ apt-get upgrade  
 $ pkg install git  
@@ -18,7 +18,7 @@ $ pip install colorama
 #To Run  
 python3 PortScanner.py  
 
-**(LINUX)** 
+**(LINUX)**   
 $ git clone https://github.com/liferacer333/PortScanner.git  
 $ python3 PortScanner.py  
 Colorama is required to run this program. Make sure that you have installed before running the script.  
