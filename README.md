@@ -27,5 +27,5 @@ Colorama is required to run this program. Make sure that you have installed befo
 Enter your target Host name or ip : example.com / 127.0.0.1   
 
 Contact Me:  
-Instagram @liferacer333  
-https://instagram.com/liferacer333?igshid=bm0bljmxt5n6  
+Instagram [liferacer333](https://instagram.com/liferacer333)    
+Linkedin [Hemanth Reddy](https://www.linkedin.com/in/hemanth-reddy-51b357191/)
