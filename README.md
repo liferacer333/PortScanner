@@ -1,5 +1,5 @@
 # PortScanner  
-![PortScanner] (https://github.com/liferacer333/PortScanner/blob/master/PortScanner.png)  
+![PortScanner](https://github.com/liferacer333/PortScanner/blob/master/PortScanner.png)  
 It Scans for Well-Known Common Ports.  
 It shows all the Open Ports if there is no open ports in between Well-Known Common Ports then without giving error or output it simply exits. It works on both Linux & Termux
 
