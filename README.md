@@ -17,7 +17,8 @@ $ pip install colorama
 ```  
 
 #To Run  
-```python3 PortScanner.py
+```
+python3 PortScanner.py
 ```
 
 **(LINUX)**   
