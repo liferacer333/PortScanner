@@ -7,7 +7,7 @@ It shows all the Open Ports if there is no open ports in between Well-Known Comm
 
 #Installation:  
 **(TERMUX)**     
-$ apt-get update  
+`$ apt-get update  `
 $ apt-get upgrade  
 $ pkg install git  
 $ pkg install python  
