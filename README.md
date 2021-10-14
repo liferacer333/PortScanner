@@ -34,5 +34,5 @@ Enter your target Host name or ip : example.com / 127.0.0.1
 
 Contact Me :smile:
 :  
-Instagram [liferacer333](https://instagram.com/liferacer333)    
-Linkedin [Hemanth Reddy](https://www.linkedin.com/in/hemanth-reddy-51b357191/)
+Instagram   [liferacer333](https://instagram.com/liferacer333)    
+Linkedin   [Hemanth Reddy](https://www.linkedin.com/in/hemanth-reddy-51b357191/)
