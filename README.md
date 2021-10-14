@@ -22,7 +22,8 @@ python3 PortScanner.py
 ```
 
 **(LINUX)**   
-```$ git clone https://github.com/liferacer333/PortScanner.git 
+```
+$ git clone https://github.com/liferacer333/PortScanner.git 
 $ python3 PortScanner.py
 ```
 Colorama is required to run this program. Make sure that you have installed before running the script.  
