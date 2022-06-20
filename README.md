@@ -14,7 +14,7 @@ $ pkg install git
 $ pkg install python    
 $ git clone https://github.com/liferacer333/PortScanner.git    
 If colorama is not installed then install it by typing:    
-$ pip install colorama  
+$ pip install colorama  or pip install -r requirements.txt
 ```  
 
 #To Run  
@@ -28,6 +28,8 @@ $ git clone https://github.com/liferacer333/PortScanner.git
 $ python3 PortScanner.py
 ```
 Colorama is required to run this program. Make sure that you have installed before running the script.  
+If colorama is not installed then install it by typing:    
+$ pip install colorama  or pip install -r requirements.txt
 
 **#Usage**:  
 Enter your target Host name or ip : example.com / 127.0.0.1   
